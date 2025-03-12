@@ -116,4 +116,30 @@
     padding: 10px;
   }
 
+  /* Best Seller Styles */
+  .bestSellerRow {
+    border-bottom: 1px solid #ccc;
+    padding: 50px 250px;
+  }
+
+  .threeProducts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
   
+  .bestSellerProduct {
+    background: white;
+    padding: 20px 75px;
+    text-align: center;
+    border-radius: 50px;
+    border: 2px solid black;
+    width: 500px;
+  }
+  
+  .bestSellerProduct img {
+    width: 250px;
+    height: auto;
+  }
