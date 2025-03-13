@@ -5,9 +5,7 @@
   /* General body styles */
   body {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: rgb(116, 197, 241);
-    padding: 0;
-    margin: 0;
+    background-color: rgb(192, 231, 255);
     color: #333;
   }
   
@@ -18,7 +16,7 @@
 
   /* Header */
   header {
-    background-color: rgb(33, 136, 215);
+    background-color: rgb(210, 182, 255);
     color: white;
     padding: 10px;
     width: 100%;
@@ -29,14 +27,14 @@
 
   /* Sub-Headers */
   h1 {
-    font-size: 2.5em;
+    font-size: 2.0em;
     font-family: Georgia;
     padding: 10px;
     text-align: center;
   }
   
   h2 {
-    font-size: 2.0em;
+    font-size: 1.5em;
   }
   
   h3 {
@@ -73,7 +71,7 @@
   }
   
   table th {
-    background-color: white ;
+    background-color: powderblue ;
     color: black ;
   }
   
@@ -94,20 +92,25 @@
     list-style: none;
   }
 
-  /* Sections */
-  section {
-    flex: 3;
-    padding: 1em;
-    background-color:rgb(19, 160, 236);
-    margin-right: 1em;
+  /* Header styles */
+  header {
+   flex-wrap: wrap;
   }
 
-  aside {
-    flex: 3;
-    padding: 1em;
-    background-color: rgb(19, 160, 236);
-    margin-left: 1em;
+  header img {
+    width: 250px;
+    height: auto;
   }
+
+  nav {
+    flex-wrap: wrap;
+  }
+
+  nav a {
+    color: black;
+    flex-wrap: wrap;
+  } 
+
  
  /* Footer */
   footer {
@@ -116,4 +119,64 @@
     padding: 10px;
   }
 
+  /* Best Seller Styles */
+  .bestSellerRow {
+    border-bottom: 1px solid #ccc;
+    padding: 50px 250px;
+  }
+
+  .threeProducts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
   
+  .bestSellerProduct {
+    background: white;
+    padding: 20px 75px;
+    text-align: center;
+    border-radius: 50px;
+    border: 2px solid black;
+    width: 500px;
+  }
+  
+  .bestSellerProduct img {
+    width: 250px;
+    height: auto;
+  }
+
+  /* Brand offers */
+  .brandofferrow {
+    border-bottom: 1px solid #ccc;
+    padding: 50px 250px
+  }
+
+  .brandoffered {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+
+  .brandofferproducts {
+    background: white;
+    padding: 20px 75px;
+    text-align: center;
+    border-radius: 50px;
+    border: 2px solid black;
+    width: 500px;
+  }
+
+  .brandofferproducts img {
+    width: 250px;
+    height: auto;
+  }
+
+  .forms {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
