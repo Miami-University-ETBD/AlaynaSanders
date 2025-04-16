@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<script>
+    $(document).ready(function(){
+      $("#p1").hover(function(){
+        alert("Serena Williams is my favorite player!");
+      },
+      function(){
+        alert("Bye! You can leave my celebrity page!");
+      }); 
+    });
+</script>
+
+<script>
+    $(document).ready(function(){
+      $("button").click(function(){
+        $("p").toggle();
+      });
+    });
+</script>
+
+<script> 
+    $(document).ready(function(){
+      $("button").click(function(){
+        $("div").animate({left: '500px'});
+      });
+    });
+    </script> 
+
+<meta charset="UTF-8"> <meta name="viewport" content="width-device-width, initial-scale=1.0">
+<title>Tennis Surplus</title>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to Tennis Surplus</h1>
+        <div class="navbar"
+            <a href="index.html">Home</a>
+            <a href="tennisraquets.html">Tennis Racquets</a>
+            <a href="apparelandshoes.html">Athleticwear and Shoes</a>
+            <a href="materialize.html">Materialize</a>
+            <a href="jquery.html">JQuery</a>
+    </header>
+
+    <section>
+        <p id="p1">Serena Williams is a retired American professional tennis player. She won a record 23 Grand Slam singles titles during her career. She also holds multiple records for Olympic medals and is considered by many to be one of the greatest female tennis players of all time. She learned tennis from her father, Richard Williams, on public courts in Los Angeles. Her older sister is tennis star Venus Williams. She Won 14 Grand Slam doubles titles with her sister Venus Williams. </p>
+    </section>
+
+    <section>
+        <button>Want to know a fun fact about Serena Williams?</button>
+
+        <p>She has won more Grand Slam singles titles than any other man or woman during the open era!</p>
+    </section>
+
+    <section>
+        <button>Click this for fun and be inspired!</button>
+
+        <p>As said by Serena Williams, "Everyone's dream can come true if you just stick to it and work hard."</p>
+
+        <div style="background:#98bf21;height:100px;width:100px;position:absolute;"></div>
+    </section>
+    
+</body>
+</html>
