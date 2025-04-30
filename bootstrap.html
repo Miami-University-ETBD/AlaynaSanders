@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Welcome to Tennis Surplus</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <header>
+        <img src="https://media.istockphoto.com/id/1345493117/vector/tennis-racket-icon-stock-vector-tennis-logo-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=5KLZBhn5hIDSBM_Y5lS8fgeqA8bZW4AtpuXzx0VU9mg=" alt="Tennisracketsandtennisballs" />
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="tennisraquets.html">Tennis Raquets</a>
+            <a href="apparelandshoes.html">Athleticwear and Shoes</a>
+            <a href="materialize.html">Materialize</a>
+            <a href="jquery.html">JQuery</a>
+            <a href="bootstrap.html">Bootstrap</a>
+        </nav>
+    </header>
+
+<div class="container-fluid p-5 bg-primary text-white text-center">
+  <h1>All about Tennis</h1>
+  <p>Intersting facts that you probably didn't know about the game of tennis!</p> 
+</div>
+  
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>Fun Fact #1</h3>
+      <p>Today, we see tennis players using a racket to hit the ball, but this was not always the case. The game was initially played with bare hands, and players used to hit the ball with their palms. This was known as “jeu de paume” or “game of the palm” in French. It wasn’t until the 16th century that rackets were introduced, and the game evolved to what we know today.</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Fun Fact #2</h3>
+      <p>In 2010, John Isner and Nicolas Mahut played the longest tennis match in history at Wimbledon. The match lasted for 11 hours and 5 minutes, spread over three days, with the final score being 6-4, 3-6, 6-7, 7-6, and 70-68. The match was so long that the scoreboard ran out of space for the score and had to be manually changed.</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Fun Fact #3</h3>        
+      <p>Before 1972, tennis balls were predominantly white, making them hard to see on a tennis court. The yellow ball was introduced to improve visibility for players and spectators. However, white balls are still used in some tournaments, such as Wimbledon.</p>
+    </div>
+</div>
+
+<section>
+    <!-- Carousel -->
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    </div>
+    
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://tennisconnected.com/wp-content/uploads/2019/12/p8094692p-e1577122862500.jpg" alt="Los Angeles" class="d-block" style="width:100%">
+      </div>
+      <div class="carousel-item">
+        <img src="https://cdn.britannica.com/57/183257-050-0BA11B4B/Roger-Federer-2012.jpg" alt="Chicago" class="d-block" style="width:100%">
+      </div>
+      <div class="carousel-item">
+        <img src="https://static01.nyt.com/athletic/uploads/wp/2025/02/12042856/Iga-Swiatek-French-Open-2022-scaled.jpg" alt="New York" class="d-block" style="width:100%">
+      </div>
+    </div>
+    
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+</section>
+
+<section>
+    <div class="container mt-3">
+        <p>Want to know one more suprising fact?</p>
+        <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo">Simple collapsible</button>
+        <div id="demo" class="collapse">
+            <p>A 13-year-old has competed at Wimbledon! In 1907, Austrian tennis player Mita Klima became the youngest player to have ever played at Wimbledon. She was 13 years old when she participated in the prestigious tournament. Unfortunately, she lost in the first round. However, participating in such a prestigious tournament at just 13 years old is a phenomenal achievement.</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container mt-3">
+        <p>Progress bar of success!</p> 
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:40%"></div>
+        </div>
+      </div>
+</section>
+
+<section>
+    <div class="container mt-3">
+        <h2>Enter your email to sign up for a subscription and rewards</h2>
+        <form action="/action_page.php">
+          <div class="mb-3 mt-3">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+          </div>
+          <div class="mb-3">
+            <label for="pwd">Password:</label>
+            <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+          </div>
+          <div class="form-check mb-3">
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox" name="remember"> Remember me
+            </label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+</section>
+  
