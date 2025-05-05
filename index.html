@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8"
     <title>TennisSurplus</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -12,8 +12,11 @@
         <img src="https://media.istockphoto.com/id/1345493117/vector/tennis-racket-icon-stock-vector-tennis-logo-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=5KLZBhn5hIDSBM_Y5lS8fgeqA8bZW4AtpuXzx0VU9mg=" alt=Tennisracketsandtennisballs width=90 height=70" />
         <nav>
             <a href="index.html">Home</a>
-            <a href="tennisraquets.html">Tennis Raquets</a>
+            <a href="tennisraquets.html">Tennis Racquets</a>
             <a href="apparelandshoes.html">Athleticwear and Shoes</a>
+            <a href="materialize.html">Materialize</a>
+            <a href="jquery.html">JQuery</a>
+            <a href="bootstrap.html">Bootstrap</a>
         </nav>
     </header>
     <main>
@@ -64,6 +67,57 @@
         <section id="special-offer">
             <h4>Limited-Time Offers - Score Big Savings!</h4>
             <h4>Enter your phone number here to be entered into a raffle for the chance to win a free item! </h4>
+        <section>
+            <h2>Workouts, Strategies & Drills for Beginner Tennis Players</h2>
+            <ul class="collapsible">
+                <li>
+                  <div class="collapsible-header"><i class="material-icons">fwhatshot</i>On-Court Drills</div>
+                  <div class="collapsible-body"><span>For beginners, work on various drills for groundstrokes, volleys, serves, doubles, and endurance & footwork</span></div>
+                </li>
+                <li>
+                  <div class="collapsible-header"><i class="material-icons">lightbulb_outline</i>Mental Strategies</div>
+                  <div class="collapsible-body"><span>For beginners, some examples of the best mental strategies while playing are deep breathing, visualizing sucess, focusing on positive self-talk, and building mental resilience through consistent practice and positive feedback. There are so many more strategies, but these are some of the best ones to achieve success while playing.</span></div>
+                </li>
+                <li>
+                  <div class="collapsible-header"><i class="material-icons">directions_run</i>Stretches for Tennis</div>
+                  <div class="collapsible-body"><span>For beginners, some examples of stretches for tennis players are the cross-body stretch, Butt kicks, Standing Quadriceps stretch, Tennis elbow stretch. If you don't know what these stretches are, make sure to look them up. There are so many more examples of stretches that can be done, but the key fact is that you make sure you stretch before and after you play tennis.</span></div>
+                </li>
+              </ul>
+        </section>
+
+        <section class="forms">
+            <div>
+            <section id="special-offer">
+                <h4>Limited-Time Offers - Score Big Savings!</h4>
+                <h4>Enter your phone number here to be entered into a raffle for the chance to win a free item! </h4>
+                <br>
+                <input id="userInput">
+                <br>
+                <br>
+                <button onclick="myFunction()">Submit</button>
+            </section>
+            </div>
+            <div>
+            <section>
+                <h4>Fun question: Who was the first tennis player to win a Grand Slam title?</h4>
+                <form id="form1">
+                    <input type="radio" name="youroption" value="Thank you!" id="option1">
+                    <label for="option1">Serena Williams</label>
+                    <br>
+                    <input type="radio" name="youroption" value="Your Opinion Matters!" id="option2">
+                    <label for="option2">Don Budge</label>
+                    <br>
+                    <input type="radio" name="youroption" value="Thank you valued customer" id="option 3">
+                    <label for="option3">Novak Djokovic</label>
+                    <br>
+                    <input type="radio" name="youroption" value="Got it, thank you!">
+                    <label for="option4">Billie Jean King</label>
+                    <br>
+                    <input type="submit" value="Submit">
+                </form>
+                <p id="answer"></p>
+            </section>
+            </div>
         </section>
         <hr>
 
